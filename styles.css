@@ -30,6 +30,10 @@ header{
   gap:16px;
   padding:10px 16px;
 }
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
 .nav img.logo{
   height:36px;
   width:36px;
