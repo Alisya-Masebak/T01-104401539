@@ -1,37 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>About | Appliance Energy (AU)</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Appliance Energy AU</title>
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
 </head>
 <body>
-<header>
-        <nav class="nav">
-            <ul>
-                <li><img src="power_logo.png" alt="Power logo" onclick="goHome()"></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="televisions.html">Televisions</a></li>
-                <li><a href="about.html" class="active">About Us</a></li>
-       
-            </ul>
-        </nav>
-    </header>
+
+  <header>
+    <nav class="nav">
+      <ul>
+        <!-- Logo links to homepage via onclick function -->
+        <li>
+          <img src="power_logo.png" alt="Power logo" onclick="goHome()" class="logo">
+        </li>
+        <!-- Navigation links -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="televisions.html">Televisions</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <main>
     <h1>About This Site</h1>
-    <p>This educational website demonstrates basic web development and shares simple pointers on appliance energy consumption in Australia.</p>
-    <div class="hero">
+
+    <!-- Introduction paragraph -->
+    <p>
+      This educational website demonstrates basic web development and shares simple
+      pointers on appliance energy consumption in Australia.
+    </p>
+
+    <section class="hero">
       <h2>Credits</h2>
-      <p>Created by <strong>Alisya</strong>. Design colours match the lightning “power” logo.</p>
-      <p>GenAI tools were used to help draft starter code and placeholder text.</p>
-    </div>
+      <p>
+        Created by <strong>Alisya</strong>. Design colours match the lightning
+        “power” logo for a clean and consistent theme.
+      </p>
+      <p>
+        GenAI tools were used to help draft starter code and placeholder text.
+      </p>
+    </section>
   </main>
 
   <footer>
     <div class="footer-inner">
+      <!-- Dynamic year added by script.js -->
       <span>© <span id="year"></span> Alisya</span>
       <span>Built with assistance from GenAI for starter code/content</span>
     </div>
