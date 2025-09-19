@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
   color: #333;
-  line-height: 1.6;
+  line-height: 1.6; /*more space between lines for readability*/
 }
 
 /* Header */
@@ -15,14 +15,14 @@ header {
 }
 
 .header-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
-  display: flex;
+  max-width: 1200px; /*keep content centered and not too wide*/
+  margin: 0 auto; /*center horizontally*/
+  padding: 1rem 2rem; /*space inside container*/
+  display: flex; /*place items in a row*/
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+  align-items: center; 
+  flex-wrap: wrap;/*move items to next line if screen is small*/
+  gap: 1rem; /*space between items*/
 }
 
 header img {
@@ -36,18 +36,18 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
+  display: flex; /*horizontal menu*/
   gap: 1.5rem;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* wrap menu items if screen too small */
 }
 
 nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 6px 10px;
-  border-radius: 6px;
+  padding: 6px 10px;/* clickable area */
+  border-radius: 6px;/* rounded corners */
   transition: background 0.3s, color 0.3s;
 }
 
@@ -81,12 +81,12 @@ main {
   margin: 2rem auto;
   padding: 1.5rem;
   background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;/* rounded corners */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);/* soft shadow */
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: 0; /* remove extra space on top */
 }
 
 /* Hero section (Credits box) */
@@ -115,8 +115,8 @@ footer {
   margin: 0 auto;
   padding: 1rem 2rem;
   font-size: 0.9rem;
-  display: flex;
+  display: flex;/* arrange footer content side by side */
   justify-content: space-between;
   gap: 1rem;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* wrap on smaller screens */
 }
